@@ -34,7 +34,8 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
 
 ### 4️⃣ Real-Time Inference Pipeline
 Python script: `Script.py`
--`python Script.py --video 20250606_171707.mp4 --model plates_detect.pt --consensus_threshold 0.5 --max_predictions 5 --show'
+
+- `python Script.py --video 20250606_171707.mp4 --model plates_detect.pt --consensus_threshold 0.5 --max_predictions 5 --show'
 - 📹 Accepts video input (CCTV/traffic footage)  
 - 🔍 Detects plates using YOLOv8  
 - 📖 Reads text via EasyOCR + rule-based cleaning  
