@@ -1,5 +1,5 @@
 # 🚀 Indian License Plate Recognition (LPR) with Synthetic Data
-**Computer Vision** project — a robust **License Plate Recognition (LPR) system** specifically designed for **Indian license plates** using **synthetic data**! 🎯
+**Computer Vision** project — a robust **License Plate Recognition (LPR) system** specifically designed for **Indian license plates** using **synthetic data**!
 
 ---
 
@@ -16,9 +16,9 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
   `MH01AB1234`, `DL12CD5678`, etc.
 - Tools: **Python + PIL + Opencv**
 - Added:
-  - ✅ Random fonts & backgrounds  
-  - ✅ Noise & blur augmentations  
-  - ✅ Perspective distortions for camera realism  
+  - Random fonts & backgrounds  
+  - Noise & blur augmentations  
+  - Perspective distortions for camera realism  
 
 ### 2️⃣ Data Augmentation for Robustness
 - Applied augmentations using **OpenCV** to simulate:
@@ -34,10 +34,10 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
 ### 4️⃣ Real-Time Inference Pipeline
 Python script: `Script.py`
 - Run Script: `python Script.py --video 20250606_171707.mp4 --model plates_detect.pt --consensus_threshold 0.5 --max_predictions 5 --show`
-- 📹 Accepts video input (CCTV/traffic footage)  
-- 🔍 Detects plates using YOLOv8  
-- 📖 Reads text via EasyOCR + rule-based cleaning  
-- 📊 Outputs confidence scores and logs predictions
+- Accepts video input (CCTV/traffic footage)  
+- Detects plates using YOLOv8  
+- Reads text via EasyOCR + rule-based cleaning  
+- Outputs confidence scores and logs predictions
 
 ---
 
@@ -56,14 +56,6 @@ Python script: `Script.py`
 - ✅ **High Accuracy** even on real-world traffic footage
 - 🚀 **Edge Deployable** on devices like **Raspberry Pi** or **Jetson Nano**
 - 🧪 **Next Step**: Fine-tuning on real annotated datasets for even better performance
-
----
-
-## 🔹 Who Can Benefit?
-
-- 🚔 **Traffic Police** – for automatic challan systems  
-- 🅿️ **Parking Management Systems** – automated entry/exit  
-- 🚚 **Logistics & Fleet Tracking** – vehicle ID in real-time  
 
 ---
 
