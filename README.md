@@ -1,6 +1,5 @@
 # 🚀 Indian License Plate Recognition (LPR) with Synthetic Data
-
-I'm thrilled to share my latest **Computer Vision** project — a robust **License Plate Recognition (LPR) system** specifically designed for **Indian license plates** using **synthetic data**! 🎯
+**Computer Vision** project — a robust **License Plate Recognition (LPR) system** specifically designed for **Indian license plates** using **synthetic data**! 🎯
 
 ---
 
