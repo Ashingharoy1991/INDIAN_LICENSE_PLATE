@@ -11,7 +11,7 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
 
 ## 🔹 Key Steps & Methodology
 
-### 1️⃣ Synthetic Data Generation (17,500+ Unique Plates)
+### 1️ Synthetic Data Generation (17,500+ Unique Plates)
 - Created Indian license plates in the format:  
   `MH01AB1234`, `DL12CD5678`, etc.
 - Tools: **Python + PIL + Opencv**
@@ -20,18 +20,18 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
   - Noise & blur augmentations  
   - Perspective distortions for camera realism  
 
-### 2️⃣ Data Augmentation for Robustness
+### 2️ Data Augmentation for Robustness
 - Applied augmentations using **OpenCV** to simulate:
   - Lighting variations (brightness/contrast)
   - Gaussian and motion blur
   - Geometric distortions (rotation, skew)
 
-### 3️⃣ Model Training (YOLOv8 + EasyOCR)
+### 3️ Model Training (YOLOv8 + EasyOCR)
 - **YOLOv8** for license plate detection
 - **EasyOCR** for OCR (custom-trained on synthetic data)
 - Post-processing using text-cleaning algorithms to fix OCR errors like `8→B`, `0→O`, `5→S`
 
-### 4️⃣ Real-Time Inference Pipeline
+### 4️ Real-Time Inference Pipeline
 Python script: `Script.py`
 - Run Script: `python Script.py --video 20250606_171707.mp4 --model plates_detect.pt --consensus_threshold 0.5 --max_predictions 5 --show`
 - Accepts video input (CCTV/traffic footage)  
