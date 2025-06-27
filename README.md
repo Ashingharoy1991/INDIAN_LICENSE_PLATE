@@ -33,7 +33,7 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
 - Post-processing using text-cleaning algorithms to fix OCR errors like `8→B`, `0→O`, `5→S`
 
 ### 4️⃣ Real-Time Inference Pipeline
-Python script: `Script_2.py`  
+Python script: `Script.py`  
 - 📹 Accepts video input (CCTV/traffic footage)  
 - 🔍 Detects plates using YOLOv8  
 - 📖 Reads text via EasyOCR + rule-based cleaning  
