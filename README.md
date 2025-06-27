@@ -15,7 +15,7 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
 ### 1️⃣ Synthetic Data Generation (17,500+ Unique Plates)
 - Created Indian license plates in the format:  
   `MH01AB1234`, `DL12CD5678`, etc.
-- Tools: **Python + OpenCV + EasyOcr + YOLO**
+- Tools: **Python + OpenCV **
 - Added:
   - ✅ Random fonts & backgrounds  
   - ✅ Noise & blur augmentations  
