@@ -60,11 +60,5 @@ Python script: `Script.py`
 ---
 
 ### 📸 Demo
-![Fig-1](./detection_frames/frame_20250627_123456_869038_ID1_WB08P9312.jpg) 
-
-
-![Fig-2](./detection_frames/frame_20250627_123502_244318_ID2_WB26BK6451.jpg) 
-
-
-![Fig-3](./detection_frames/frame_20250627_123543_007096_ID26_UP53BJ3634.jpg) 
+![Fig-1](./detection_frames/frame_20250627_123534_353396_ID22_WB01J6209.jpg) 
 
