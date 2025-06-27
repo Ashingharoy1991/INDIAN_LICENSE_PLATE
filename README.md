@@ -28,8 +28,8 @@ The goal was to train a **YOLOv8 + EasyOCR-based LPR model** that accurately det
   - Geometric distortions (rotation, skew)
 
 ### 3️⃣ Model Training (YOLOv8 + EasyOCR)
-- **YOLOv8** for license plate detection (fine-tuned on synthetic data)
-- **EasyOCR** for OCR (custom-trained)
+- **YOLOv8** for license plate detection
+- **EasyOCR** for OCR (custom-trained on synthetic data)
 - Post-processing using text-cleaning algorithms to fix OCR errors like `8→B`, `0→O`, `5→S`
 
 ### 4️⃣ Real-Time Inference Pipeline
