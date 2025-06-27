@@ -76,11 +76,3 @@ Python script: `Script_2.py`
 
 ![Fig-3](./detection_frames/frame_20250627_123543_007096_ID26_UP53BJ3634.jpg) 
 ![Crop_plate](./recognized_plates/ID26_UP53BJ3634.jpg)
-
-
-
-
-
-
-
-![plate_detection](./detection_frames/frame_20250627_123456_869038_ID1_WB08P9312.jpg)
